@@ -12,16 +12,92 @@ body {
     margin: 0;
 }
 
-.mobile-menu {
-    width: 90%;
+.mobile.menu {
+    width: 9%;
     margin-left: 7%;
-    padding-bottom: 10%;
     padding-top: 1%;
+    margin-bottom: 9%;
     background-color: transparent;
+}
+#hamburger-icon {
+    width: 100%;
+}
+.mobile-menu {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(55, 38, 36, 0.99);
+    background-image: url(resources/images/unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 150%;
+    background-blend-mode:overlay;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    position: fixed;
+    transform: translateY(-200%);
+    transition: transform 0.3s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    list-style: none;
+    padding-top: 10%;
+  }
+
+.showMenu {
+    transform: translateY(0);
+}
+
+.xIcon {
+    justify-content: flex-end;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 5%;
+    background-color: transparent;
+}
+
+.xIcon img {
+    justify-self: center;
+    background-color: transparent;
+    filter: invert(100%);
+    height: 90%;
 }
 
 #hamburger {
     width: 9%;
+}
+
+.mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    background-color: transparent;
+}
+
+.mobile-menu li {
+    font-family: "Lato", sans-serif;
+    font-size: 9vw;
+    color: white;
+    font-weight: 900;
+    margin-left: -9%;
+    line-height: 290%;
+    background-color: transparent;
+}
+
+.mobile-menu a {
+    text-decoration: none;
+    color: #e4ddc9;
+    letter-spacing: .5rem;
+    background-color: transparent;
+}
+
+  
+.mobile-menu a:visited {
+    text-decoration: none;
+    color: #e4ddc9;
 }
 
 .Hello {
@@ -51,7 +127,7 @@ body {
     font-size: 7.5vw;
     margin-top: 0;
     margin-left: 6%;
-    background: url(resources/images/sunsplash.jpg);
+    background: url(resources/images/unsplash.jpg);
     -webkit-background-clip: text;
     background-clip: text;
     background-size: 50%;

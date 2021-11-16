@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,13 +20,25 @@
       <nav class="desktop desktop-menu"></nav>
     </header>
     <section class="Hello">
-      <nav class="mobile mobile-menu">
-        <span
+      <nav class="mobile menu">
+        <span class="hamburger"
           ><img
-            src="resources/images/hambuger.svg"
-            alt="menu event-icon"
-            id="hamburger"
+            src="/resources/images/hambuger.svg"
+            alt="menu icon"
+            id="hamburger-icon"
         /></span>
+        <div class="mobile-menu mobile">
+          <span class="xIcon"
+            ><img src="/resources/images/Union-2.svg" alt="x icon"
+          /></span>
+          <ul class="mobile">
+            <li><a href="/index.html#hello">Hello</a></li>
+            <li><a href="#about.html"> About </a></li>
+            <li><a href="/index.html#events"> Events </a></li>
+            <li><a href="/index.html#speakers"> Speakers </a></li>
+            <li><a href="#contact"> Contact </a></li>
+          </ul>
+        </div>
       </nav>
       <span id="hello-about" class="hello about mobile"
         >"Hello! Sharing world"</span
@@ -37,7 +49,7 @@
         reiciendis repellendus praesentium aspers quam accusamus obcaecati
         laudantium corrupti soluta.
       </p>
-      <div class="contact-us">
+      <div class="contact-us" id="contact">
         <p class="contact">
           Please contact us per Email for any further questions about CC Global
           Summit 2015!
@@ -52,7 +64,7 @@
         elit. Lorem ipsum dolor sit amet consectetur.
       </p>
       <div class="logo1">
-        <img src="resources/images/seeklogo.com.svg" alt="summit logo" />
+        <img src="/resources/images/seeklogo.com.svg" alt="summit logo" />
       </div>
     </section>
     <section class="past-about">
@@ -71,24 +83,24 @@
     <section class="partners">
       <h2>Partners</h2>
       <div class="partner-logos" >
-      <img src="resources/images/behance.png"/>
-      <img src="resources/images/dropbox.png"/>
-      <img src="resources/images/soundcloud.png"/>
-      <img src="resources/images/ebay.png"/>
-      <img src="resources/images/wordpress.png"/>
-      <img src="resources/images/linkedin.png"/>
-      <img src="resources/images/instagram.png"/>
+      <img src="/resources/images/behance.png"/>
+      <img src="/resources/images/dropbox.png"/>
+      <img src="/resources/images/soundcloud.png"/>
+      <img src="/resources/images/ebay.png"/>
+      <img src="/resources/images/wordpress.png"/>
+      <img src="/resources/images/linkedin.png"/>
+      <img src="/resources/images/instagram.png"/>
     </div>
     </section>
     <footer>
       <div class="logo-footer">
-        <img src="resources/images/seeklogo.com.svg" />
+        <img src="/resources/images/seeklogo.com.svg" />
       </div>
       <div class="copyrigths">
         © 2015 Creative Commons Korea. <br />
         Some Rights Reserved.
       </div>
     </footer>
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="/script.js"></script>
   </body>
 </html>
