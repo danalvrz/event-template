@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Playfair+Display&family=Poppins:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Summit Event</title>
+  </head>
+  <body>
+    <header>
+      <nav class="desktop desktop-menu"></nav>
+    </header>
+    <section class="Hello">
+      <nav class="mobile menu">
+        <span class="hamburger"
+          ><img
+            src="resources/images/hambuger.svg"
+            alt="menu icon"
+            id="hamburger-icon"
+        /></span>
+        <div class="mobile-menu mobile">
+          <span class="xIcon"
+            ><img src="resources/images/Union-2.svg" alt="x icon"
+          /></span>
+          <ul class="mobile">
+            <li><a href="#hello">Hello</a></li>
+            <li><a href="pages/about.html"> About </a></li>
+            <li><a href="#events"> Events </a></li>
+            <li><a href="#speakers"> Speakers </a></li>
+            <li><a href="pages/about.html#contact"> Contact </a></li>
+          </ul>
+        </div>
+      </nav>
+      <span id="hello" class="hello">"Hello! Sharing world"</span>
+      <h1 class="summit-name">CREATIVE COMMONS GLOBAL SUMMIT <br />2015</h1>
+      <p class="summit-description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit atque
+        reiciendis repellendus praesentium aspers quam accusamus obcaecati
+        laudantium corrupti soluta.
+      </p>
+      <div class="date-location">
+        <h2 class="date">2015.10.15(THU) ~ 16(FRI)</h2>
+        <p class="location">
+          @ National Museum of Korea, Art Center Nabi and more
+        </p>
+      </div>
+    </section>
+    <section class="main-program" id="events">
+      <h2>Main Program</h2>
+      <ul class="events">
+        <li class="event-card">
+          <span class="event-icon"
+            ><img
+              src="/resources/images/conference1.svg"
+              alt="conference event-icon"
+              width="50"
+          /></span>
+          <span class="event-type">Lecture</span>
+          <span class="event-info"
+            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rusto
+            obcaecati deleniti nobis.</span
+          >
+        </li>
+      </ul>
+      <button class="join">Join CC Global Summit 2015</button>
+    </section>
+    <section class="featuring" id="speakers">
+      <h2>Featured Speakers</h2>
+      <ul class="speakers">
+        <li class="speaker-card">
+          <span class="speaker-icon"
+            ><img src="resources/images/user.jpg" alt="user-icon" width="50"
+          /></span>
+          <div class="speaker-info">
+            <h3 class="speaker-name">Yochai Benkler</h3>
+            <br />
+            <p class="speaker-title">
+              Lorem Ipsum Professor of Amet Consectetur lorem ipsum dolor sit
+              University.
+            </p>
+            <br />
+            <p class="speaker-work">
+              As dolor sit amet consectetur Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.
+            </p>
+          </div>
+        </li>
+      </ul>
+      <button id="more">
+        MORE<span
+          ><img src="resources/images/arrowhead.svg" alt="arrowhead" width="30"
+        /></span>
+      </button>
+    </section>
+    <footer>
+      <div class="logo-footer">
+        <img src="resources/images/seeklogo.com.svg" />
+      </div>
+      <div class="copyrigths">
+        © 2015 Creative Commons Korea. <br />
+        Some Rights Reserved.
+      </div>
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
