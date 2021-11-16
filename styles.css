@@ -12,6 +12,10 @@ body {
     margin: 0;
 }
 
+.desktop {
+    display: none;
+}
+
 .mobile.menu {
     width: 9%;
     margin-left: 7%;
@@ -216,6 +220,12 @@ body {
     color: white;
     list-style: none;
     font-family: 'Lato', sans-serif;
+    margin-bottom: 2%;
+    border: solid 2px rgb(93,93,93, .8);
+}
+
+.event-card:hover {
+    border: solid 2px white;
 }
 
 .event-type {
@@ -298,6 +308,10 @@ body {
 .speakers {
     padding-left: 0;
     background-color: inherit;
+}
+
+.speaker-card {
+    margin-bottom: 5%;
 }
 
 .speaker-icon {
@@ -606,7 +620,7 @@ body {
     width: 10%;
     height: 1px;
     bottom: 0;
-    left: 57%;
+    left: 58%;
     border-bottom: 1px solid #ec5242;
 }
 .partner-logos {
@@ -653,4 +667,315 @@ footer {
 footer img {
     width: 40%;
     padding-left: 10%;
+}
+
+@media (min-width: 768px) {
+    .desktop {
+        display: block;
+    }
+    .mobile {
+        display: none;
+    }
+    header {
+        height: 90px;
+        width: 100%;
+        position: fixed;
+        z-index: 999;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .desktop-menu {
+        height: 100%;
+        border-bottom: solid 1px #d3d3d3;
+    }
+
+    .menu-list {
+        display: flex;
+        justify-content: space-around;
+        height: 100%;
+        margin-top: 0;
+    }
+
+    .menu-list li {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        font-family: "Lato", sans-serif;
+        font-size: 1.4vw;
+        font-weight: 500;
+    }
+
+    .menu-list a {
+        text-decoration: none;
+    }
+
+    .menu-list a:visited {
+        text-decoration: none;
+    }
+    .menu-list a:hover {
+        color: #ec5242;
+    }
+
+    .menu-list a:active {
+        color: #ec5242;
+        font-weight: 900;
+    }
+    .main-logo {
+        margin-right: 20%;
+    }
+    .menu-list img {
+        height: 70%;
+        margin-top: 7%;
+    }
+
+    .Hello {
+        padding-top: 11%;
+        margin-left: 0;
+        padding-left: 15%;
+    }
+
+    .main-program {
+        padding-top: 5%;
+    }
+
+    .main-program h2:before{
+        content: "";
+        position: absolute;
+        width: 30%;
+        height: 1px;
+        bottom: 0;
+        left: 35%;
+        border-bottom: 1px solid #ec5242;
+    }
+    
+    .campaign {
+        border: solid 4px #ec5242;
+        font-family: "Lato", sans-serif;
+        font-size: 1.1vw;
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 55%;
+        color: #ec5242;
+    }
+
+    .campaign:hover {
+        background-color: #ec5242;
+        border: solid 4px #ec5242;
+        font-family: "Lato", sans-serif;
+        font-size: 1.1vw;
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 55%;
+        color: white;
+    }
+
+    .hello {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .summit-name {
+        font-size: 6vw;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    .summit-description {
+        font-size: 1.2vw;
+        margin-left: 0;
+        width: 55%;
+        padding: 2%;
+    }
+
+    .date-location {
+        margin-left: 0;
+        padding-bottom: 10%;
+    }
+
+    .date {
+        font-size: 2.5vw;
+        margin-bottom: 0;
+    }
+
+    .location {
+        font-size: 1.5vw;
+        margin-top: 1.5%;
+    }
+
+    .main-program h2 {
+        font-size: 2.5vw;
+        padding-bottom: 1%;
+    }
+
+    .main-program {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .events {
+        width: 80%;
+        justify-self: center;
+        display: flex;
+    }
+
+    .event-card {
+        flex-direction: column;
+        width: 20%;
+        margin-left: .25%;
+        margin-right: .25%;
+        border: solid 2px rgb(93,93,93, .8);
+    }
+    .event-card:hover {
+        border: solid 2px white;
+    }
+
+    .event-icon {
+        width: 40%;
+        margin-top: 15%;
+    }
+
+    .event-info {
+        font-size: 1.3vw;
+        margin-bottom: 10%;
+        text-align: center;
+    }
+
+    .event-type {
+        font-size: 2.5vw;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .see-all {
+        background-color: transparent;
+        margin-bottom: 5%;
+    }
+
+    .see-all span {
+        background-color: transparent;
+        font-family: "Lato", sans-serif;
+        color: #d3d3d3;
+        border-bottom: solid 2px #d3d3d3;
+        font-size: 1.2vw;
+        padding-bottom: 1%;
+    }
+
+    .see-all span:hover {
+        color: #ec5242;
+        border-bottom: solid 2px #ec5242;
+    }
+
+    .featuring {
+        padding-top: 5%;
+    }
+
+    .featuring h2 {
+        font-size: 2.5vw;
+        padding-bottom: 1%;
+    }
+
+    .speaker-card {
+        width: 50%;
+    }
+
+    .speakers {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+
+    .speaker-icon {
+        width: 40%;
+        height: 100%;
+    }
+
+    .speaker-name {
+        font-size: 1.7vw;
+    }
+
+    .speaker-title {
+        font-size: 1.1vw;
+    }
+
+    .speaker-work {
+        font-size: 1vw;
+    }
+
+    #more {
+        display: none;
+    }
+
+    .partners {
+        background-color: #272a31;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .partners h2 {
+        background-color: inherit;
+        color: white;
+        font-family: 'Lato', sans-serif;
+        text-align: center;
+        font-size: 2.5vw;
+        position: relative;
+        padding-bottom: 1%;
+        padding-top: 6%;
+        width: 65%;
+        padding-left: 16%;
+        margin-top: 0;
+    }
+    
+    .partners h2:before {
+        content: "";
+        position: absolute;
+        width: 8%;
+        height: 1px;
+        bottom: 0;
+        left: 56%;
+        border-bottom: 1px solid #ec5242;
+    }
+    .partner-logos {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: transparent;
+        justify-content: space-evenly;
+        align-content: space-between;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 5%;
+    }
+    .partners img {
+        width: 8%;
+        background-color: transparent;
+        filter: invert(100%);
+        opacity: .7;
+        margin: 3%;
+        transition: .3s;
+    }
+
+    footer {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .copyrigths {
+        font-size: 1.2vw;
+        background-color: transparent;
+        padding-bottom: 2%;
+    }
+
+    .logo-footer {
+        width: 25%;
+        margin-top: 3%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .logo-footer img {
+        padding-left: 0;
+    }
 }
