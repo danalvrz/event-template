@@ -726,8 +726,8 @@ footer img {
         margin-right: 20%;
     }
     .menu-list img {
-        height: 70%;
-        margin-top: 7%;
+        height: 60%;
+        margin-top: 15%;
     }
 
     .Hello {
@@ -977,5 +977,151 @@ footer img {
 
     .logo-footer img {
         padding-left: 0;
+    }
+
+    .Hello.about {
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+    #about-name {
+        font-size: 3.5vw;
+        width: 50%;
+        margin-top: 3%;
+    }
+
+    .about-description {
+        width: 50%;
+        font-size: 1.2vw;
+        margin-top: 6%;
+        padding: 2%;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    .about-description span {
+        background-color: transparent;
+    }
+
+    .contact.about {
+        font-size: 1.2vw;
+        padding-top: 6%;
+    }
+
+    .contact-site.about {
+        font-size: 1.5vw;
+    }
+
+    .logo-about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-about h2 {
+        font-size: 2.5vw;
+        padding-left: 0;
+        margin-right: 0;
+    }
+    .logo-about h2:before {
+        padding-left: 0;
+        content: "";
+        position: absolute;
+        width: 10%;
+        height: 1px;
+        bottom: 0;
+        left: 45%;
+    }
+
+    .logo-about span,
+    .logo-about p {
+        background-color: transparent;
+        font-size: 1.2vw;
+        padding-top: 0;
+    }
+
+    .logo1{
+        width: 40%;
+        margin-left: 0;
+        margin-top: 5%;
+    }
+
+    .logo1 img {
+        width: 50%;
+    }
+
+    .past-about h2 {
+        display: flex;
+        justify-content: center;
+        font-size: 2.5vw;
+        padding-bottom: 3%;
+        padding-top: 5%;
+    }
+    .past-about h2:before {
+        padding-left: 0;
+        content: "";
+        position: absolute;
+        width: 10%;
+        height: 1px;
+        bottom: 0;
+        left: 50%;
+    }
+
+    .past-about p {
+        font-size: 1.5vw;
+    }
+
+    .past-cc {
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        justify-content: center;
+        width: 45%;
+        margin: 0;
+        font-size: 5vw;
+    }
+    .past-events {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 7%;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        justify-content: space-between;
+        background-color: transparent;
+    }
+
+    .past-events img {
+        justify-self: center;
+        height: 100%;
+    }
+
+    .past-cc span {
+        font-size: 1.5vw;
+        margin-top: 5%;
+    }
+
+    footer {
+        background-color: #272a31;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        height: 100%;
+    }
+
+    .logo-footer {
+        background-color: transparent;
+        margin-top: 0;
+    }
+
+    .logo-footer img {
+        background-color: transparent;
+        filter: invert(80%);
+    }
+
+    .copyrigths {
+        color: #d3d3d3;
     }
 }
