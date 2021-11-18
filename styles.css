@@ -891,7 +891,11 @@ footer {
 
   .event-icon {
     width: 35%;
+    margin: 0;
     margin-top: 15%;
+    display: flex;
+    padding: 0;
+    justify-content: center;
   }
 
   .event-info {
@@ -962,6 +966,13 @@ footer {
     width: 80%;
   }
 
+  .speakers span {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 120px;
+  }
+
   .speaker-icon {
     width: 50%;
     height: 100%;
@@ -979,16 +990,10 @@ footer {
     font-size: 1vw;
   }
 
-  #speakers-top {
-    margin-right: 30%;
-    margin-left: 31%;
-    width: 85%;
-    margin-bottom: 2%;
-  }
-
   #speakers-top li {
     margin: 0;
     padding: 0;
+    margin-bottom: 8%;
   }
 
   #more {
