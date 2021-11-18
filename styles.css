@@ -700,6 +700,7 @@ footer {
 .logo-footer {
   display: flex;
   padding-left: 10%;
+  width: 50%;
 }
 
 .logo-footer img {
@@ -709,8 +710,11 @@ footer {
 .copyrigths {
   display: flex;
   padding-left: 10%;
-  padding-top: 4%;
+  padding-right: 3%;
+  padding-top: 3%;
+  padding-bottom: 4%;
   line-height: 170%;
+  width: 30%;
 }
 
 @media (min-width: 768px) {
@@ -1056,12 +1060,14 @@ footer {
   .logo-footer {
     height: 100%;
     margin-top: 3%;
-    margin-left: 0;
+    margin-left: 10%;
     padding-left: 0;
   }
 
   .logo-footer img {
     padding-left: 0;
+    height: 90%;
+    width: auto;
   }
 
   .Hello.about {
