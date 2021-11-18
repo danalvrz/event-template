@@ -50,6 +50,7 @@ body {
   z-index: 99;
   list-style: none;
   padding-top: 10%;
+  overflow: auto;
 }
 
 .showMenu {
