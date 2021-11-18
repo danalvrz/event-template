@@ -450,7 +450,8 @@ footer img {
 }
 
 .logo1 img {
-  width: 70%;
+  width: 100%;
+  height: auto;
   background-color: transparent;
 }
 
@@ -461,6 +462,10 @@ footer img {
   opacity: 0.7;
   margin: 4%;
   transition: 0.3s;
+}
+
+.logo-footer img {
+  width: 90%;
 }
 
 .partners img:hover {
@@ -581,11 +586,6 @@ footer img {
   justify-content: center;
 }
 
-.logo1 img {
-  height: auto;
-  width: 100%;
-}
-
 .past-about h2 {
   background-color: inherit;
   color: #272a31;
@@ -701,10 +701,6 @@ footer {
   display: flex;
   padding-left: 10%;
   width: 50%;
-}
-
-.logo-footer img {
-  width: 90%;
 }
 
 .copyrigths {
@@ -940,6 +936,13 @@ footer {
     margin-top: 5%;
   }
 
+  .speakers span {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 120px;
+  }
+
   .see-all span:hover {
     color: #ec5242;
     border-bottom: solid 2px #ec5242;
@@ -964,13 +967,6 @@ footer {
     flex-wrap: wrap;
     flex-direction: row;
     width: 80%;
-  }
-
-  .speakers span {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    width: 120px;
   }
 
   .speaker-icon {
@@ -1188,5 +1184,4 @@ footer {
     justify-self: center;
     height: 100%;
   }
-
 }
