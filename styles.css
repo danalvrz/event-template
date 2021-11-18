@@ -39,7 +39,7 @@ body {
     flex-direction: column;
     align-content: center;
     position: fixed;
-    transform: translateY(-200%);
+    transform: translateY(-300%);
     transition: transform 0.3s;
     top: 0;
     left: 0;
@@ -131,7 +131,7 @@ body {
     font-size: 7.4vw;
     margin-top: 0;
     margin-left: 6%;
-    margin-right: 2%;
+    margin-right: 1%;
     background: url(resources/images/unsplash.jpg);
     -webkit-background-clip: text;
     background-clip: text;
