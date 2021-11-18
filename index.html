@@ -19,13 +19,17 @@
     <header>
       <nav class="desktop-menu desktop">
         <ul class="menu-list">
-          <a href="#start" class="main-logo" ><img src="resources/images/seeklogo.com.svg" class="desktop"/></a>
+          <a href="#start" class="main-logo"
+            ><img src="resources/images/seeklogo.com.svg" class="desktop"
+          /></a>
           <li><a class="menu-item" href="#hello">Hello</a></li>
           <li><a class="menu-item" href="pages/about.html"> About </a></li>
           <li><a class="menu-item" href="#events"> Events </a></li>
           <li><a class="menu-item" href="#speakers"> Speakers </a></li>
-          <li><a class="menu-item" href="pages/about.html#contact"> Contact </a></li>
-          <li><button class="campaign"> CC Campaign</button></li>
+          <li>
+            <a class="menu-item" href="pages/about.html#contact"> Contact </a>
+          </li>
+          <li><button class="campaign">CC Campaign</button></li>
         </ul>
       </nav>
     </header>
@@ -66,64 +70,42 @@
     </section>
     <section class="main-program" id="events">
       <h2>Main Program</h2>
-      <ul class="events">
-        <li class="event-card">
-          <span class="event-icon"
-            ><img
-              src="resources/images/conference1.svg"
-              alt="conference event-icon"
-              width="50"
-          /></span>
-          <span class="event-type">Lecture</span>
-          <span class="event-info"
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rusto
-            obcaecati deleniti nobis.</span
-          >
-        </li>
-      </ul>
-      <a href="#start" class="see-all desktop"><span>SEE THE WHOLE PROGRAM</span></a>
+      <ul class="events" id="events-dynamic"></ul>
+      <a href="#start" class="see-all desktop"
+        ><span>SEE THE WHOLE PROGRAM</span></a
+      >
       <button class="join mobile">Join CC Global Summit 2015</button>
     </section>
     <section class="featuring" id="speakers">
       <h2>Featured Speakers</h2>
-      <ul class="speakers">
-        <li class="speaker-card">
-          <span class="speaker-icon"
-            ><img src="resources/images/user.jpg" alt="user-icon" width="50"
+      <ul class="speakers" id="speakers-top"></ul>
+      <ul class="speakers less" id="speakers-dynamic"></ul>
+      <div id="more-container" class="mobile">
+        <button id="more-bttn" class="more-bttn">
+          <span id="more-txt">MORE</span
+          ><span
+            ><img
+              src="resources/images/arrowhead.svg"
+              alt="arrowhead"
+              width="30"
+              id="arrowhead"
           /></span>
-          <div class="speaker-info">
-            <h3 class="speaker-name">Yochai Benkler</h3>
-            <br />
-            <p class="speaker-title">
-              Lorem Ipsum Professor of Amet Consectetur lorem ipsum dolor sit
-              University.
-            </p>
-            <br />
-            <p class="speaker-work">
-              As dolor sit amet consectetur Lorem ipsum dolor sit amet
-              consectetur adipisicing elit.
-            </p>
-          </div>
-        </li>
-      </ul>
-      <button id="more" class="mobile">
-        MORE<span class="mobile" 
-          ><img src="resources/images/arrowhead.svg" alt="arrowhead" width="30" class="mobile"
-        /></span>
-      </button>
+        </button>
+      </div>
+    </section>
       <section class="partners desktop">
         <h2>Partners</h2>
-        <div class="partner-logos" >
-        <img src="resources/images/behance.png"/>
-        <img src="resources/images/dropbox.png"/>
-        <img src="resources/images/soundcloud.png"/>
-        <img src="resources/images/ebay.png"/>
-        <img src="resources/images/wordpress.png"/>
-        <img src="resources/images/linkedin.png" class="mobile"/>
-        <img src="resources/images/instagram.png" class="mobile"/>
-      </div>
+        <div class="partner-logos">
+          <img src="resources/images/behance.png" />
+          <img src="resources/images/dropbox.png" />
+          <img src="resources/images/soundcloud.png" />
+          <img src="resources/images/ebay.png" />
+          <img src="resources/images/wordpress.png" />
+          <img src="resources/images/linkedin.png" class="mobile" />
+          <img src="resources/images/instagram.png" class="mobile" />
+        </div>
       </section>
-    </section>
+    
     <footer>
       <div class="logo-footer">
         <img src="resources/images/seeklogo.com.svg" />

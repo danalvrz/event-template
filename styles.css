@@ -286,6 +286,7 @@ body {
     align-items: center;
     padding-top: 9%;
     background-color: white;
+    height: 100%;
 }
 
 .featuring h2{
@@ -307,8 +308,11 @@ body {
 }
 
 .speakers {
+    display: flex;
+    flex-direction: column;
     padding-left: 0;
     background-color: inherit;
+    margin-bottom: -3%;
 }
 
 .speaker-card {
@@ -385,7 +389,7 @@ body {
     justify-items: center;
     align-items: center;
 }
-#more {
+#more-bttn {
     background-color: white;
     box-shadow: none;
     border: solid 1px #5d5d5d;
@@ -405,22 +409,36 @@ body {
     align-content: center;
 }
 
-#more:hover{
+#more-bttn:hover{
     border: solid 1px #ec5242;
     color: #ec5242;
 }
 
-#more span {
+#more-bttn span {
     background-color: white;
 }
 
-#more img {
+#more-bttn img {
     background-color: white;
     align-self: center;
     justify-self: center;
     padding-left: 50%;
     padding-top: 15%;
     transform: scale(.6);
+}
+
+#more-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+}
+
+.less {
+    display: none;
+}
+.more {
+    display: block;
 }
 
 .about-body {
@@ -674,7 +692,8 @@ footer img {
     .desktop {
         display: block;
     }
-    .mobile {
+    .mobile,
+    #more-container {
         display: none;
     }
     header {
@@ -834,18 +853,18 @@ footer img {
     }
 
     .event-icon {
-        width: 40%;
+        width: 35%;
         margin-top: 15%;
     }
 
     .event-info {
-        font-size: 1.3vw;
+        font-size: 1.1vw;
         margin-bottom: 10%;
         text-align: center;
     }
 
     .event-type {
-        font-size: 2.5vw;
+        font-size: 2vw;
         margin-top: 5%;
         margin-bottom: 5%;
     }
@@ -871,6 +890,7 @@ footer img {
 
     .featuring {
         padding-top: 5%;
+        padding-bottom: 5%;
     }
 
     .featuring h2 {
@@ -885,11 +905,12 @@ footer img {
     .speakers {
         display: flex;
         flex-wrap: wrap;
+        flex-direction: row;
         width: 80%;
     }
 
     .speaker-icon {
-        width: 40%;
+        width: 50%;
         height: 100%;
     }
 
@@ -911,7 +932,6 @@ footer img {
 
     .partners {
         background-color: #272a31;
-        margin-top: 0;
         padding-top: 0;
     }
     .partners h2 {
@@ -1105,24 +1125,4 @@ footer img {
         margin-top: 5%;
     }
 
-    footer {
-        background-color: #272a31;
-        margin-bottom: 0;
-        padding-bottom: 0;
-        height: 100%;
-    }
-
-    .logo-footer {
-        background-color: transparent;
-        margin-top: 0;
-    }
-
-    .logo-footer img {
-        background-color: transparent;
-        filter: invert(80%);
-    }
-
-    .copyrigths {
-        color: #d3d3d3;
-    }
 }
