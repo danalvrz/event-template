@@ -142,12 +142,17 @@ footer img {
   margin-left: 25%;
 }
 
+#hello-about {
+  margin-left: 23%;
+}
+
 .summit-name {
   color: rgba(300, 35, 12, 0.7);
   font-family: Cocogoose, sans-serif;
-  font-size: 7.5vw;
+  font-size: 7.2vw;
   margin-top: 0;
   margin-left: 6%;
+  margin-right: 1%;
   background: url(resources/images/unsplash.jpg);
   -webkit-background-clip: text;
   background-size: 50%;
@@ -258,14 +263,14 @@ footer img {
 .event-icon {
   align-self: center;
   background-color: transparent;
-  width: 30%;
+  width: 120px;
   padding-left: 7%;
   padding-right: 7%;
 }
 
 .event-icon img {
   background-color: transparent;
-  width: 100%;
+  width: 60px;
 }
 
 .event-info {
@@ -276,6 +281,7 @@ footer img {
   padding-left: 8%;
   line-height: 170%;
   font-size: 3vw;
+  text-align: right;
 }
 
 .join {
@@ -331,6 +337,8 @@ footer img {
   padding-left: 0;
   background-color: inherit;
   margin-bottom: -3%;
+  margin-left: 8%;
+  margin-right: 5%;
 }
 
 .speaker-card {
@@ -341,17 +349,16 @@ footer img {
   display: flex;
   justify-content: flex-end;
   padding: 0;
-  width: 50%;
-  background-image: url(resources/images/checkered.jpg);
-  background-repeat: no-repeat;
   background-size: 70px;
   background-position: 17% 0%;
   background-color: inherit;
+  width: 120px;
+  height: 120px;
 }
 
 .speaker-icon img {
-  width: 80%;
-  height: 80%;
+  width: 120px;
+  height: 120px;
   background-color: transparent;
   padding-top: 10%;
 }
@@ -382,7 +389,7 @@ footer img {
   font-size: 3vw;
   background-color: inherit;
   position: relative;
-  padding-bottom: 5%;
+  padding-bottom: 2%;
 }
 
 .speaker-title::before {
@@ -398,7 +405,7 @@ footer img {
 .speaker-work {
   font-size: 2.7vw;
   background-color: inherit;
-  margin-top: -7%;
+  margin-top: -6%;
 }
 
 .featuring button {
@@ -574,6 +581,11 @@ footer img {
   justify-content: center;
 }
 
+.logo1 img {
+  height: auto;
+  width: 100%;
+}
+
 .past-about h2 {
   background-color: inherit;
   color: #272a31;
@@ -690,6 +702,10 @@ footer {
   padding-left: 10%;
 }
 
+.logo-footer img {
+  width: 90%;
+}
+
 .copyrigths {
   display: flex;
   padding-left: 10%;
@@ -756,7 +772,13 @@ footer {
   }
 
   .main-logo {
-    margin-right: 20%;
+    margin: 0;
+    width: 100%;
+  }
+
+  #start-logo {
+    width: 40%;
+    height: 90%;
   }
 
   .menu-list img {
@@ -953,6 +975,18 @@ footer {
     font-size: 1vw;
   }
 
+  #speakers-top {
+    margin-right: 30%;
+    margin-left: 31%;
+    width: 85%;
+    margin-bottom: 2%;
+  }
+
+  #speakers-top li {
+    margin: 0;
+    padding: 0;
+  }
+
   #more {
     display: none;
   }
@@ -1020,7 +1054,7 @@ footer {
   }
 
   .logo-footer {
-    width: 25%;
+    height: 100%;
     margin-top: 3%;
     margin-left: 0;
     padding-left: 0;
@@ -1085,13 +1119,15 @@ footer {
   }
 
   .logo1 {
-    width: 40%;
+    width: 50%;
     margin-left: 0;
     margin-top: 5%;
+    height: auto;
   }
 
   .logo1 img {
-    width: 50%;
+    height: auto;
+    width: 100%;
   }
 
   .past-about h2 {
@@ -1141,4 +1177,5 @@ footer {
     justify-self: center;
     height: 100%;
   }
+
 }

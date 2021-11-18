@@ -22,29 +22,29 @@ menu.addEventListener('click', closeMenu);
 
 const events = [
   {
-    icon: 'resources/images/conference1.svg',
-    type: 'Lecture',
-    info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rusto obcaecati deleniti nobis.',
+    icon: 'resources/images/program_icon_05.png',
+    type: 'Music',
+    info: 'By Paul Paul, a modern troubador sings songs based on ancient Beefhead carols, his compilation is called "The Beefhead Comes this Night".',
   },
   {
-    icon: 'resources/images/conference1.svg',
-    type: 'Lecture',
-    info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rusto obcaecati deleniti nobis.',
+    icon: 'resources/images/program_icon_04.png',
+    type: 'Workshops',
+    info: 'With Les Cheese of musical duo Cheese & Onion Les Cheese shows the audience his various body parts that have been replaced by animal parts.',
   },
   {
-    icon: 'resources/images/conference1.svg',
-    type: 'Lecture',
-    info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rusto obcaecati deleniti nobis.',
+    icon: 'resources/images/program_icon_01.png',
+    type: 'Dance',
+    info: 'Of the Beef Hop the latest dance craze sweeping the nation, became popular based on the #1 hit "Do the Beef Hop".',
   },
   {
-    icon: 'resources/images/conference1.svg',
-    type: 'Lecture',
-    info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rusto obcaecati deleniti nobis.',
+    icon: 'resources/images/program_icon_02.png',
+    type: 'Poetry',
+    info: 'Reading of The Ballad of Parsnip Flendercroft, describing the tragic death by reversing into the sea of the former bursar of the Bovine Farmers` Union.',
   },
   {
-    icon: 'resources/images/conference1.svg',
-    type: 'Lecture',
-    info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Rusto obcaecati deleniti nobis.',
+    icon: 'resources/images/program_icon_03.png',
+    type: 'Q&A',
+    info: 'With Bob Trescothick, answer all of your veterinary questions live!. Lorem ipsum sit dolor amet.',
   },
 ];
 
@@ -66,18 +66,18 @@ for (let i = 0; i < events.length; i += 1) {
 
 const speakersTop = [
   {
-    name: 'Yochai Benkler',
+    name: 'Bob Trescothick',
     title:
-      'Lorem Ipsum Professor of Amet Consectetur lorem ipsum dolor sit University.',
-    work: 'As dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    photo: 'resources/images/user.jpg',
+      'Bovine Bum Vet at Ipsum Dolor Sit University',
+    work: 'The TV personality who used to be the resident vet for the annual Ken Bicton memorial pig run.',
+    photo: 'resources/images/speaker01.png',
   },
   {
-    name: 'Yochai Benkler2',
+    name: 'Tusk Henderson',
     title:
-      'Lorem Ipsum Professor of Amet Consectetur lorem ipsum dolor sit University.',
-    work: 'As dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    photo: 'resources/images/user.jpg',
+      'Celebrity adventurer lorem sit since 1523',
+    work: 'The first person in history to drink his own urine on all 7 continents, who faced controversy due to being accused of bringing a cow on his adventures.',
+    photo: 'resources/images/speaker02.png',
   },
 ];
 
@@ -99,32 +99,32 @@ for (let k = 0; k < speakersTop.length; k += 1) {
 
 const speakers = [
   {
-    name: 'Yochai Benkler3',
+    name: 'Lucy Bonham',
     title:
-      'Lorem Ipsum Professor of Amet Consectetur lorem ipsum dolor sit University.',
-    work: 'As dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    photo: 'resources/images/user.jpg',
+      'President of Amet Beef Council dolor of America',
+    work: 'Took over from Violet Crabtree to organize the Beef Council Annual Dinner and Barn Dance, bringing a "new look" to the traditional event.',
+    photo: 'resources/images/speaker03.png',
   },
   {
-    name: 'Yochai Benkler4',
+    name: 'Phillip Mushroom',
     title:
-      'Lorem Ipsum Professor of Amet Consectetur lorem ipsum dolor sit University.',
-    work: 'As dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    photo: 'resources/images/user.jpg',
+      'International TV Actor and life coach at Ipsum Institute',
+    work: 'Son of a butcher, known for TV dramas, playing detective Beef in Beef Justice and starring role in Bankside the movie.',
+    photo: 'resources/images/speaker04.jpg',
   },
   {
-    name: 'Yochai Benkler',
+    name: 'Roy Gluck Jr.',
     title:
-      'Lorem Ipsum Professor of Amet Consectetur lorem ipsum dolor sit University.',
-    work: 'As dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    photo: 'resources/images/user.jpg',
+      ' CEO of Burgers Barrel and professional whistler',
+    work: 'Kansas-based hamburgers restaurant of the fast food nature, started by Gluck Jr.`s grandfather to be the number #8 burger chain the American Midwest.',
+    photo: 'resources/images/speaker05.jpg',
   },
   {
-    name: 'Yochai Benkler',
+    name: 'Michael "Frank" Franklinson',
     title:
-      'Lorem Ipsum Professor of Amet Consectetur lorem ipsum dolor sit University.',
-    work: 'As dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    photo: 'resources/images/user.jpg',
+      'Canadian entrepreneur and inventor of the cheesemeat',
+    work: 'Travelled to the UK to sell his company Franklinson`s new product, which he claims is the "next big thing".',
+    photo: 'resources/images/speaker06.png',
   },
 ];
 
