@@ -206,7 +206,7 @@ footer img {
   margin-left: 0;
   background-image: url(resources/images/unsplash.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 180%;
   background-blend-mode: multiply;
 }
 
@@ -758,8 +758,23 @@ footer {
     text-decoration: none;
   }
 
+  .social-list a {
+    text-decoration: none;
+    background-color: #272a31;
+    color: white;
+    font-size: 1vw;
+  }
+
   .menu-list a:visited {
     text-decoration: none;
+  }
+
+  .social-list li {
+    text-decoration: none;
+    background-color: #272a31;
+    margin-left: 1%;
+    margin-right: 1%;
+    display: flex;
   }
 
   .menu-list a:hover {
@@ -773,7 +788,7 @@ footer {
 
   .main-logo {
     margin: 0;
-    width: 100%;
+    width: 89%;
   }
 
   #start-logo {
@@ -1183,5 +1198,35 @@ footer {
   .past-events img {
     justify-self: center;
     height: 100%;
+  }
+
+  .social {
+    background-color: #272a31;
+    height: 40px;
+  }
+
+  .social-list {
+    background-color: #272a31;
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 3%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-end;
+    list-style: none;
+    font-family: "Lato", sans-serif;
+  }
+
+  .social-list img {
+    background-color: #272a31;
+    height: 70%;
+    margin: 0;
+    padding-top: 20%;
+  }
+
+  #facebook {
+    margin-top: 30%;
   }
 }
