@@ -239,12 +239,12 @@ footer img {
 
 .event-card {
   display: flex;
-  background-color: rgb(93, 93, 93, 0.8);
+  background-color: rgb(93, 93, 93, 0.5);
   color: white;
   list-style: none;
   font-family: 'Lato', sans-serif;
   margin-bottom: 2%;
-  border: solid 2px rgb(93, 93, 93, 0.8);
+  border: solid 2px rgb(93, 93, 93, 0.1);
 }
 
 .event-card:hover {
@@ -258,6 +258,8 @@ footer img {
   color: #ec5242;
   font-size: 4vw;
   align-self: center;
+  width: 60px;
+  margin-left: 5px;
 }
 
 .event-icon {
@@ -281,7 +283,7 @@ footer img {
   padding-left: 8%;
   line-height: 170%;
   font-size: 3vw;
-  text-align: right;
+  text-align: left;
 }
 
 .join {
@@ -695,22 +697,30 @@ footer {
   height: 80px;
   font-family: 'Lato', sans-serif;
   font-size: 2.5vw;
+  padding-bottom: 5%;
 }
 
 .logo-footer {
   display: flex;
-  padding-left: 10%;
-  width: 50%;
+  padding-left: 5%;
+  height: 90%;
+  width: 60%;
+  padding-top: 4%;
+}
+.logo-footer img {
+  height: auto;
+  width: auto;
 }
 
 .copyrigths {
   display: flex;
   padding-left: 10%;
   padding-right: 3%;
-  padding-top: 3%;
+  padding-top: 7%;
+  padding-left: 4%;
   padding-bottom: 4%;
   line-height: 170%;
-  width: 30%;
+  width: 50%;
 }
 
 @media (min-width: 768px) {
@@ -1062,22 +1072,33 @@ footer {
 
   footer {
     width: 100%;
+    height: 100px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    padding-top: 3%;
+    padding-bottom: 4%;
   }
 
   .copyrigths {
     font-size: 1.2vw;
     background-color: transparent;
     padding-bottom: 2%;
+    margin-right: 5%;
+    margin-left: 0;
+    padding-left: 0;
+    padding-top: 5%;
+    width: 90%;
   }
 
   .logo-footer {
     height: 100%;
     margin-top: 3%;
-    margin-left: 10%;
+    margin-left: 20%;
+    margin-right: 1%;
     padding-left: 0;
+    padding-top: 0;
+    justify-content: flex-end;
   }
 
   .logo-footer img {
@@ -1228,5 +1249,18 @@ footer {
 
   #facebook {
     margin-top: 30%;
+  }
+
+  .about-footer {
+    background-color: #272a31;
+  }
+
+  .about-footer img {
+    background-color: transparent;
+    filter: invert(100%);
+  }
+
+  .copyrigths.about-footer {
+    color: #e4ddc9;
   }
 }

@@ -28,7 +28,7 @@ const events = [
   },
   {
     icon: 'resources/images/program_icon_04.png',
-    type: 'Workshops',
+    type: 'Exhibits',
     info: 'With Les Cheese of musical duo Cheese & Onion Les Cheese shows the audience his various body parts that have been replaced by animal parts.',
   },
   {
