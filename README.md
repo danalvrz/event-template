@@ -10,7 +10,7 @@ This is a spuffy event website template based on the original design from design
 
 - Mobile:
 
-![Mobile screenshot](resources/images/screen_shot_mobile.png)
+![Mobile screenshot](resources/images/screen_shot_mobile1.png)
 
 
 ## Built With
