@@ -467,7 +467,8 @@ footer img {
 }
 
 .logo-footer img {
-  width: 90%;
+  height: auto;
+  width: auto;
 }
 
 .partners img:hover {
@@ -707,14 +708,9 @@ footer {
   width: 60%;
   padding-top: 4%;
 }
-.logo-footer img {
-  height: auto;
-  width: auto;
-}
 
 .copyrigths {
   display: flex;
-  padding-left: 10%;
   padding-right: 3%;
   padding-top: 7%;
   padding-left: 4%;
