@@ -245,6 +245,7 @@ footer img {
   font-family: 'Lato', sans-serif;
   margin-bottom: 2%;
   border: solid 2px rgb(93, 93, 93, 0.1);
+  min-height: 200px;
 }
 
 .event-card:hover {
