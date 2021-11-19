@@ -1,6 +1,7 @@
 # Event-template
 
-This is a spuffy event website template based on the original design from designer [Cindy Shin](https://www.behance.net/adagio07), and content based on the [Beef and Dairy Network Podcast](https://www.beefanddairynetwork.com).
+This is a spuff event website template based on the original design idea from designer [Cindy Shin](https://www.behance.net/adagio07), and content based on the [Beef and Dairy Network Podcast](https://www.beefanddairynetwork.com).
+
 
 # Screenshots
 
@@ -12,12 +13,18 @@ This is a spuffy event website template based on the original design from design
 
 ![Mobile screenshot](resources/images/screen_shot_mobile1.png)
 
+- Loom video presentation:
+
+![Loom video](https://www.loom.com/share/6597ecebbad742f481d26111bbe0cd84)
+
 
 ## Built With
 
 - HTML
 - CSS
+- JavaScript
 - Visual Studio Code
+
 
 ## Live Demo
 
@@ -36,6 +43,7 @@ This is a spuffy event website template based on the original design from design
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
 
 ## 📝 License
 
