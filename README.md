@@ -2,7 +2,14 @@
 
 This is a spuffy event website template based on the original design from designer [Cindy Shin](https://www.behance.net/adagio07), and content based on the [Beef and Dairy Network Podcast](https://www.beefanddairynetwork.com).
 
+# Screenshots
+
+- Desktop:
+
 ![Desktop screenshot](resources/images/screen_shot.png)
+
+- Mobile:
+
 ![Mobile screenshot](resources/images/screen_shot_mobile.png)
 
 
